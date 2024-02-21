@@ -1,0 +1,31 @@
+1. **Viewing the Data**
+   - Purpose: Provides a quick look at the contents of the `sales` table, showing all columns and rows.
+   - Importance: Understanding the structure and contents of the dataset.
+
+2. **Checking the Row Count**
+   - Purpose: Counts the total number of rows in the `sales` table.
+   - Importance: Gives a basic understanding of the dataset's size.
+
+3. **Checking for Duplicates**
+   - Purpose: Identifies and counts any duplicate rows based on certain columns (`Invoice_ID`, `Branch`, `City`, etc.).
+   - Importance: Detecting duplicates is crucial for ensuring data accuracy and consistency.
+
+4. **Null Value Check**
+   - Purpose: Counts null values in each column of the dataset.
+   - Importance: Null values can cause issues in analysis, so it's crucial to identify them.
+
+5. **Outlier Check**
+   - Purpose: Identifies potential outliers in specific columns (`Total`, `Quantity`, `Unit_price`, `Rating`).
+   - Importance: Outliers can skew analysis results, so it's important to understand their presence.
+
+6. **Calculating Weekday and Day Segment**
+   - Purpose: Determines the weekday and day segment (`Morning`, `Afternoon`, `Night`, etc.) for each sale.
+   - Importance: Helps understand when sales occur most frequently during the day or week.
+
+7. **Exploratory Data Analysis (EDA) Queries**
+   - Purpose: Provides insights into the data, such as counts of unique values in columns, most-used payment methods, most-selling products, total revenue by month, and categorization of products based on ratings.
+   - Importance: EDA helps understand the distribution and characteristics of the data.
+
+8. **Sales Change Over Time**
+   - Purpose: Calculates the change in sales over time, both week-wise and month-wise, using window functions.
+   - Importance: Helps identify trends and patterns in sales data over different time periods.
